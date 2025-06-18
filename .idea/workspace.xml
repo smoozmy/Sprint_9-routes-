@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1a6daec4-68af-4ed7-afad-02a4663c46e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locators/main_page_locators.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/main_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
