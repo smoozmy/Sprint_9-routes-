@@ -38,7 +38,7 @@
     "git-widget-placeholder": "develop"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_trip_modes.TestTripModes">
+  <component name="RunManager" selected="Python tests.Python tests for test_tariffs.TestTariffs">
     <configuration name="Python tests for test_rote_display.TestRouteDisplay" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_9 (routes)" />
       <option name="ENV_FILES" value="" />
@@ -84,7 +84,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_route.TestRouteInput" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_tariffs.TestTariffs" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Sprint_9 (routes)" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +95,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_route.TestRouteInput&quot;" />
+      <option name="_new_target" value="&quot;test_tariffs.TestTariffs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_tariffs.TestTariffs" />
         <item itemvalue="Python tests.Python tests for test_trip_modes.TestTripModes" />
         <item itemvalue="Python tests.Python tests for test_rote_display.TestRouteDisplay" />
         <item itemvalue="Python tests.Python tests for test_route.TestMainPage.test_add_route_shows_start_end_points_on_map" />
         <item itemvalue="Python tests.Python tests for test_route.TestMainPage" />
-        <item itemvalue="Python tests.Python tests for test_route.TestRouteInput" />
       </list>
     </recent_temporary>
   </component>
