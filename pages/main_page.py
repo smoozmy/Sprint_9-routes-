@@ -1,4 +1,6 @@
 import re
+import time
+
 import allure
 
 from locators.main_page_locators import MainPageLocators
@@ -165,7 +167,7 @@ class MainPage(BasePage):
         title = self.wait_element_visible(MainPageLocators.TAXI_ORDERED_TITLE).text
         self.wait_util_element_text_changes(MainPageLocators.TAXI_ORDER_TIMER, '00:00')
         time_waiting_taxi_before = self.driver.find_element(*MainPageLocators.TAXI_ORDER_TIMER).text.replace(":", "")
-        self.wait_util_element_text_changes(MainPageLocators.TAXI_ORDER_TIMER, time_waiting_taxi_before)
+        time.sleep(5)
         time_waiting_taxi_after = self.driver.find_element(*MainPageLocators.TAXI_ORDER_TIMER).text.replace(":", "")
         assert title == "Поиск машины"
         assert int(time_waiting_taxi_after) < int(time_waiting_taxi_before)
